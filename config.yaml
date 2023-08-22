@@ -24,14 +24,21 @@ monitors:
   #   followRedirect: false # should fetch follow redirects, default=false
   #   linkable: false # allows the title to be a link, default=true
 
-  - id: DMIT-20230820
-    name: DMIT-20230820
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://vm2.5i996.top'
+  - id: DMIT-LOS-20230820
+    name: DMIT-LOS
+    description: 'DMIT.2G.2T'
+    url: 'https://cfwsvm2.5i996.top'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
+  - id: AWS-JP-20230810
+    name: AWS-JP
+    description: 'AWS-JP.1G.100G'
+    url: 'https://cfwsvm3.5i996.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
   # - id: blog-cloudflare-com
   #   name: The Cloudflare Blog
   #   url: 'https://blog.cloudflare.com/'
